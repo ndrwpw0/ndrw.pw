@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ndrwpw0
 github_username:  ndrwpw0
+permalink: /:title/
 
 # Build settings
 paginate: 5
