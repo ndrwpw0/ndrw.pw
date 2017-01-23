@@ -23,9 +23,11 @@ twitter_username: ndrwpw0
 github_username:  ndrwpw0
 
 # Build settings
+paginate: 5
 markdown: kramdown
 gems:
   - jekyll-feed
+  - jekyll-paginate
 exclude:
   - Gemfile
   - Gemfile.lock
