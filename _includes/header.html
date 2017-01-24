@@ -1,13 +1,13 @@
-<header class="clear">
+<header class="site-header clear">
   <div class="site-title">
-    <h1><a href="/">ndrw</a></h1>
+    <h1><a href="/" class="lh">ndrw</a></h1>
     <h2>Systems Engineer => InfoSec
   </div>
 	<nav>
         {% for my_page in site.pages %}
           {% if my_page.title %}
-          <a href="/">Home</a>
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+          <a href="/" class="lh">Home</a>
+          <a class="page-link lh" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
           {% endif %}
         {% endfor %}
 	</nav>
