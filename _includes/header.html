@@ -1,14 +1,10 @@
-<header class="site-header clear">
-  <div class="site-title">
-    <h1><a href="/" class="lh">ndrw</a></h1>
-    <h2>Systems Engineer => InfoSec
-  </div>
-	<nav>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a href="/" class="lh">Home</a>
-          <a class="page-link lh" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-          {% endif %}
-        {% endfor %}
-	</nav>
+<header class="site-header">
+	<div class="mwl mauto">
+	    <a class="site-title" href="/">ndrw</a>
+	    <nav>
+	        <a href="/">Home</a>
+	        <a href="/about">About</a>
+	        <a href="/archive">Archive</a>
+	    </nav>
+	</div>    
 </header>

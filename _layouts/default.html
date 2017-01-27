@@ -1,26 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
-
-{% include head.html %}
-
-<body>
-	<div class="page-wrap">
-
-		{% include header.html %}
-
-		<main>
-		<!-- Fuck computers, seriously. It's all shit.
-		<br> <!-- oh look at me i'm a br. no css here! 
-		More content coming soon.
-		<br> <!-- another one, i'm an animal! 
-		<a href="https://twitter.com/ndrwpw0">@ndrwpw0</a>
-		-->
-		{{ content }}
-		</main>
-
-		<footer>
-			<a href="https://twitter.com/ndrwpw0">@ndrwpw0</a>
-		</footer>
-	</div>
-</body>
+<html>
+  {% include head.html %}
+  <body>
+  {% include header.html %}
+  {{ content }}
+  {% include footer.html %}
+  </body>
 </html>

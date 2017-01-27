@@ -1,15 +1,16 @@
 ---
 layout: default
 ---
-<div class="post">
+<article class="">
+	<div class="post-header mwm mauto plr1">
+	    <h2 class="post-title">{{ page.title }}</h2>
+	    <time class="post-date">{{ page.date | date: "%B %d, %Y" }}</time>
+	    <!-- can't figure out this bullshit yaml. it displays text, but the a tags don't work properly. this got me most of the way there: https://github.com/scallemang/jekyll-tags-categories -->
+	    <!-- <p class="post-meta">{% if page.categories %} • Categories: {{ page.categories | join: ', '  }}</a>{% endif %}{% if page.tags %} • Tags: {{ page.tags | join: ', '  }}</a>{% endif %}</p>
+    -->
+    </div>
 
-  <header class="post-header">
-    <h2 class="post-title">{{ page.title }}</h2>
-    <time class="post-date">{{ page.date | date: "%B %d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
-  </header>
-
-  <article class="post-content">
-    {{ content }}
-  </article>
-
-</div>
+    <div class="lh-copy">
+      {{ content }}
+    </div>
+</article>

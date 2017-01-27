@@ -1,0 +1,18 @@
+<footer class="pt4">
+  <div class="mwl mauto plr1">
+    <p>Subscribe <a href="{{ "/atom.xml" | prepend: site.baseurl }}">via RSS</a>.</p>
+    <p>@ndrwpw0 on <a href="https://twitter.com/ndrwpw0">Twitter</a> and <a href="https://github.com/ndrwpw0">GitHub</a>.</p>
+
+      <ul class="">
+        <li class=""{% if page.url == '/' %}{% endif %}>
+          <a href="/">Home</a>
+        </li>
+        <li class=""{% if page.url == '/about/' %}{% endif %}>
+          <a href="/about">About</a>
+        </li>
+        <li class=""{% if page.url == '/archive/' %}{% endif %}>
+          <a href="/archive">Archive</a>
+        </li>
+      </ul>
+  </div>
+</footer>

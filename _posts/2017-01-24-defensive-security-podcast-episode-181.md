@@ -2,7 +2,7 @@
 layout: post
 title:  "Defensive Security Podcast Episode 181 #NowListening"
 date:   2017-01-24 08:23:00 -0600
-categories: now-listening
+categories: blog now-listening
 ---
 
 Thanks to the folks over at Defensive Security for providing some entertainment/sanity in my terrible commute.
